@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  ~ Copyright 2016 Comvai, s.r.o.
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~     http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+    <parent>
+        <groupId>org.ctoolkit.maven</groupId>
+        <artifactId>ctoolkit-parent</artifactId>
+        <version>5</version>
+    </parent>
+
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>org.ctoolkit.turnonline</groupId>
+    <artifactId>wicket-bom</artifactId>
+    <version>6.19.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    <name>Apache Wicket Bill of Materials</name>
+    <description>The Apache Wicket Bill of Materials to be used in CToolkiT libraries.</description>
+    <url>https://github.com/turnonline/wicket-bom</url>
+
+    <scm>
+        <connection>scm:git:[fetch=]git@github.com:turnonline/wicket-bom.git</connection>
+        <developerConnection>scm:git:[push=]git@github.com:turnonline/wicket-bom.git</developerConnection>
+        <url>https://github.com/turnonline/wicket-bom</url>
+        <tag>HEAD</tag>
+    </scm>
+
+    <issueManagement>
+        <url>https://github.com/turnonline/wicket-bom/issues</url>
+    </issueManagement>
+
+    <developers>
+        <developer>
+            <name>Aurel Medvegy</name>
+            <id>medvegy</id>
+            <email>aurel.medvegy@ctoolkit.org</email>
+        </developer>
+    </developers>
+
+    <licenses>
+        <license>
+            <name>Apache License, Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.apache.wicket</groupId>
+                <artifactId>wicket-core</artifactId>
+                <version>6.19.0</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.wicket</groupId>
+                <artifactId>wicket-ioc</artifactId>
+                <version>6.19.0</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.wicket</groupId>
+                <artifactId>wicket-guice</artifactId>
+                <version>6.19.0</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.wicket</groupId>
+                <artifactId>wicket-auth-roles</artifactId>
+                <version>6.19.0</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.wicket</groupId>
+                <artifactId>wicket-extensions</artifactId>
+                <version>6.19.0</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.wicket</groupId>
+                <artifactId>wicket-datetime</artifactId>
+                <version>6.19.0</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.wicket</groupId>
+                <artifactId>wicket-velocity</artifactId>
+                <version>6.19.0</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.wicket</groupId>
+                <artifactId>wicket-devutils</artifactId>
+                <version>6.19.0</version>
+            </dependency>
+            <dependency>
+                <groupId>org.wicketstuff</groupId>
+                <artifactId>wicketstuff-gae-initializer</artifactId>
+                <version>6.19.0</version>
+            </dependency>
+            <dependency>
+                <groupId>org.wicketstuff</groupId>
+                <artifactId>wicketstuff-gmap3</artifactId>
+                <version>6.19.0</version>
+            </dependency>
+            <dependency>
+                <groupId>com.googlecode.wicket-jquery-ui</groupId>
+                <artifactId>wicket-jquery-ui</artifactId>
+                <version>6.19.2</version>
+            </dependency>
+            <dependency>
+                <groupId>com.googlecode.wicket-jquery-ui</groupId>
+                <artifactId>wicket-jquery-ui-core</artifactId>
+                <version>6.19.2</version>
+            </dependency>
+            <dependency>
+                <groupId>com.googlecode.wicket-jquery-ui</groupId>
+                <artifactId>wicket-jquery-ui-plugins</artifactId>
+                <version>6.19.2</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+</project>
