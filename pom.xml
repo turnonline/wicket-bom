@@ -25,7 +25,6 @@
     </parent>
 
     <modelVersion>4.0.0</modelVersion>
-    <groupId>org.ctoolkit.turnonline</groupId>
     <artifactId>wicket-bom</artifactId>
     <version>6.19.0-SNAPSHOT</version>
     <packaging>pom</packaging>
