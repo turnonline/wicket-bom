@@ -25,7 +25,7 @@
 
     <modelVersion>4.0.0</modelVersion>
     <artifactId>wicket-bom</artifactId>
-    <version>6.24.0</version>
+    <version>6.24.1-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>Apache Wicket Bill of Materials</name>
     <description>The Apache Wicket Bill of Materials to be used in CToolkiT libraries.</description>
@@ -35,7 +35,7 @@
         <connection>scm:git:[fetch=]git@github.com:turnonline/wicket-bom.git</connection>
         <developerConnection>scm:git:[push=]git@github.com:turnonline/wicket-bom.git</developerConnection>
         <url>https://github.com/turnonline/wicket-bom</url>
-        <tag>wicket-bom-6.24.0</tag>
+        <tag>HEAD</tag>
     </scm>
 
     <issueManagement>
