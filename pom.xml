@@ -25,7 +25,7 @@
 
     <modelVersion>4.0.0</modelVersion>
     <artifactId>wicket-bom</artifactId>
-    <version>8.4.1-SNAPSHOT</version>
+    <version>8.5.0-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>Apache Wicket Bill of Materials</name>
     <description>The Apache Wicket Bill of Materials to be used in CtoolkiT libraries.</description>
@@ -63,47 +63,47 @@
             <dependency>
                 <groupId>org.apache.wicket</groupId>
                 <artifactId>wicket-core</artifactId>
-                <version>8.4.0</version>
+                <version>8.5.0</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.wicket</groupId>
                 <artifactId>wicket-ioc</artifactId>
-                <version>8.4.0</version>
+                <version>8.5.0</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.wicket</groupId>
                 <artifactId>wicket-guice</artifactId>
-                <version>8.4.0</version>
+                <version>8.5.0</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.wicket</groupId>
                 <artifactId>wicket-auth-roles</artifactId>
-                <version>8.4.0</version>
+                <version>8.5.0</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.wicket</groupId>
                 <artifactId>wicket-extensions</artifactId>
-                <version>8.4.0</version>
+                <version>8.5.0</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.wicket</groupId>
                 <artifactId>wicket-datetime</artifactId>
-                <version>8.4.0</version>
+                <version>8.5.0</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.wicket</groupId>
                 <artifactId>wicket-velocity</artifactId>
-                <version>8.4.0</version>
+                <version>8.5.0</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.wicket</groupId>
                 <artifactId>wicket-util</artifactId>
-                <version>8.4.0</version>
+                <version>8.5.0</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.wicket</groupId>
                 <artifactId>wicket-devutils</artifactId>
-                <version>8.4.0</version>
+                <version>8.5.0</version>
             </dependency>
             <dependency>
                 <groupId>org.wicketstuff</groupId>
